@@ -1,7 +1,17 @@
 
 # ECS & ECS Deployment with Terraform
 
+Deployed Backend URL to ECS
+backend-alb-1161922540.us-east-1.elb.amazonaws.com
 
+Deployed Frontend URL to ECS
+181298345900.dkr.ecr.us-east-1.amazonaws.com/frontend-repo
+
+
+BLOCKER IN THIS PRODUCTION
+
+
+"First of all there are CORS allowed in the backend and when frontend try top hit the backend it fails due to CORS error because it hit on secure connection panel and HTTP isnt secure and we dont have a domain for redirection ,if we redirect the domain over HTTPS that issue would be resolved automatially in a blink of eye"
 
 ## Step 1 
 Create Alb with terraform
