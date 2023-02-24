@@ -1,5 +1,5 @@
 
-# ECS & ECS Dployment with Terraform
+# ECS & ECS Deployment with Terraform
 
 
 
@@ -24,10 +24,10 @@ Create Ecs Service with terraform and add variable constant you want to add at r
 
 
 ## Step 2
-Create .github folder and in that folder create workflows file and then wriet config.yml file in it
+Create .github folder and in that folder create workflows file and then write config.yml file in it
 
 _______________________________________________________________________
-In file just add thier names
+In file just add their names
 
 1.Ecr Repo
 
@@ -48,6 +48,6 @@ Add these secrets to Github Actions Secrets
 
 4.AWS ECR REPO
 
-## Horrah we have done it
+## Yay!
 
 "JUST PUSH TO MAIN BRANCH AND IT WILL DEPLOYED AUTOMATICALLY AND DEPLOYED TO ECS WITH GITHUB ACTIONS"
